@@ -3,6 +3,7 @@ import "./bootstrap.min.css";
 
 class EmotionTable extends React.Component {
   render() {
+    console.log(this.props.emotions);
     //Returns the emotions as an HTML table
     return (
       <div>

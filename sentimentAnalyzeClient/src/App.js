@@ -64,11 +64,8 @@ class App extends React.Component {
           case "negative":
             color = "red";
             break;
-          case "neutral":
-            color = "yellow";
-            break;
           default:
-            color = "black";
+            color = "yellow";
         }
         output = <div style={{ color: color, fontSize: 20 }}>{output}</div>;
         this.setState({ sentimentOutput: output });
